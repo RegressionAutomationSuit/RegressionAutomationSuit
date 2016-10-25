@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DSTVMozillaFirefox" duration-ms="1155800" started-at="2016-10-20T08:07:17Z" finished-at="2016-10-20T08:26:33Z">
+    <groups>
+    </groups>
+    <test name="DstvSignIn" duration-ms="62448" started-at="2016-10-20T08:07:17Z" finished-at="2016-10-20T08:08:20Z">
+      <class name="dstv.SignIn">
+        <test-method status="PASS" signature="init()[pri:0, instance:dstv.SignIn@7eeb6e01]" name="init" is-config="true" duration-ms="1" started-at="2016-10-20T10:07:45Z" finished-at="2016-10-20T10:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="signIn(java.util.Hashtable)[pri:0, instance:dstv.SignIn@7eeb6e01]" name="signIn" duration-ms="19002" started-at="2016-10-20T10:07:45Z" data-provider="getData" finished-at="2016-10-20T10:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=32532310}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dstv.SignIn@7eeb6e01]" name="tearDown" is-config="true" duration-ms="836" started-at="2016-10-20T10:08:04Z" finished-at="2016-10-20T10:08:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dstv.SignIn@7eeb6e01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:dstv.SignIn@7eeb6e01]" name="afterMethod" is-config="true" duration-ms="645" started-at="2016-10-20T10:08:05Z" finished-at="2016-10-20T10:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dstv.SignIn@7eeb6e01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="quitBrowse()[pri:0, instance:dstv.SignIn@7eeb6e01]" name="quitBrowse" is-config="true" duration-ms="13642" started-at="2016-10-20T10:08:06Z" finished-at="2016-10-20T10:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowse -->
+      </class> <!-- dstv.SignIn -->
+      <class name="util.Base">
+        <test-method status="PASS" signature="GetDataFromXml(java.lang.String)[pri:0, instance:util.Base@7691e54a]" name="GetDataFromXml" is-config="true" duration-ms="1" started-at="2016-10-20T10:07:17Z" finished-at="2016-10-20T10:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser=Mozilla,datasheet=SignIn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDataFromXml -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:util.Base@7691e54a]" name="beforeMethod" is-config="true" duration-ms="845" started-at="2016-10-20T10:07:17Z" finished-at="2016-10-20T10:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b50bf15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTestRunnable()[pri:0, instance:dstv.SignIn@7eeb6e01]" name="checkTestRunnable" is-config="true" duration-ms="27372" started-at="2016-10-20T10:07:18Z" depends-on-methods="util.Base.GetDataFromXml, util.Base.beforeMethod" finished-at="2016-10-20T10:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestRunnable -->
+      </class> <!-- util.Base -->
+    </test> <!-- DstvSignIn -->
+    <test name="DstvCommunicationPreferences" duration-ms="1093273" started-at="2016-10-20T08:08:20Z" finished-at="2016-10-20T08:26:33Z">
+      <class name="dstv.SignIn">
+        <test-method status="PASS" signature="init()[pri:0, instance:dstv.SignIn@529e3572]" name="init" is-config="true" duration-ms="0" started-at="2016-10-20T10:10:14Z" finished-at="2016-10-20T10:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="signIn(java.util.Hashtable)[pri:0, instance:dstv.SignIn@529e3572]" name="signIn" duration-ms="15813" started-at="2016-10-20T10:10:14Z" data-provider="getData" finished-at="2016-10-20T10:10:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not interested, CuctomerID=32532310, Email=shubhangi.malavi@multichoice.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dstv.SignIn@529e3572]" name="tearDown" is-config="true" duration-ms="786" started-at="2016-10-20T10:10:29Z" finished-at="2016-10-20T10:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dstv.SignIn@529e3572] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:dstv.SignIn@529e3572]" name="afterMethod" is-config="true" duration-ms="134" started-at="2016-10-20T10:10:30Z" finished-at="2016-10-20T10:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dstv.SignIn@529e3572] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- dstv.SignIn -->
+      <class name="util.Base">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:util.Base@a5f846e]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2016-10-20T10:07:17Z" finished-at="2016-10-20T10:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a95aea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="GetDataFromXml(java.lang.String)[pri:0, instance:util.Base@a5f846e]" name="GetDataFromXml" is-config="true" duration-ms="2" started-at="2016-10-20T10:08:20Z" finished-at="2016-10-20T10:08:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser=Mozilla,datasheet=CommunicationPreferences]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDataFromXml -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:util.Base@a5f846e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-10-20T10:08:20Z" finished-at="2016-10-20T10:08:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a95aea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="checkTestRunnable()[pri:0, instance:dstv.CommunicationPreferences@600156fd]" name="checkTestRunnable" is-config="true" duration-ms="113813" started-at="2016-10-20T10:08:20Z" depends-on-methods="util.Base.GetDataFromXml, util.Base.beforeMethod" finished-at="2016-10-20T10:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestRunnable -->
+        <test-method status="PASS" signature="checkTestRunnable()[pri:0, instance:dstv.SignIn@529e3572]" name="checkTestRunnable" is-config="true" duration-ms="71" started-at="2016-10-20T10:10:13Z" depends-on-methods="dstv.CommunicationPreferences.checkTestRunnable, util.Base.GetDataFromXml, util.Base.beforeMethod" finished-at="2016-10-20T10:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestRunnable -->
+      </class> <!-- util.Base -->
+      <class name="dstv.CommunicationPreferences">
+        <test-method status="PASS" signature="communicationPreferences(java.util.Hashtable)[pri:0, instance:dstv.CommunicationPreferences@600156fd]" name="communicationPreferences" duration-ms="75659" started-at="2016-10-20T10:10:30Z" data-provider="getData" finished-at="2016-10-20T10:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not interested, CuctomerID=32532310, Email=shubhangi.malavi@multichoice.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- communicationPreferences -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dstv.CommunicationPreferences@600156fd]" name="tearDown" is-config="true" duration-ms="1164" started-at="2016-10-20T10:11:46Z" finished-at="2016-10-20T10:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=communicationPreferences status=SUCCESS method=CommunicationPreferences.communicationPreferences(java.util.Hashtable)[pri:0, instance:dstv.CommunicationPreferences@600156fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:dstv.CommunicationPreferences@600156fd]" name="afterMethod" is-config="true" duration-ms="73" started-at="2016-10-20T10:11:47Z" finished-at="2016-10-20T10:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=communicationPreferences status=SUCCESS method=CommunicationPreferences.communicationPreferences(java.util.Hashtable)[pri:0, instance:dstv.CommunicationPreferences@600156fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="quitBrowse()[pri:0, instance:dstv.CommunicationPreferences@600156fd]" name="quitBrowse" is-config="true" duration-ms="885563" started-at="2016-10-20T10:11:47Z" finished-at="2016-10-20T10:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowse -->
+        <test-method status="PASS" signature="quitBrowse()[pri:0, instance:dstv.SignIn@529e3572]" name="quitBrowse" is-config="true" duration-ms="2" started-at="2016-10-20T10:26:33Z" finished-at="2016-10-20T10:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowse -->
+      </class> <!-- dstv.CommunicationPreferences -->
+    </test> <!-- DstvCommunicationPreferences -->
+  </suite> <!-- DSTVMozillaFirefox -->
+  <suite name="DMG" duration-ms="0" started-at="2016-10-20T08:26:33Z" finished-at="2016-10-20T08:26:33Z">
+    <groups>
+    </groups>
+  </suite> <!-- DMG -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DMG]" parallel="none">
+  <listeners>
+    <listener class-name="util.ExtentReportsNG"/>
+  </listeners>
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="dstv.SignIn">
+        <methods>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- dstv.SignIn -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [DMG] -->

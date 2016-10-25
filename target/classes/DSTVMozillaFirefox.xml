@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DSTVMozillaFirefox" parallel="none">
+
+<listeners> 
+		<listener class-name="util.ExtentReportsNG" />
+</listeners >
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+<test name="DstvSignIn">
+    <parameter name="base" value="browser=Mozilla,datasheet=SignIn"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+    </classes>
+</test>
+
+<test name="DstvCommunicationPreferences">
+    <parameter name="base" value="browser=Mozilla,datasheet=CommunicationPreferences"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+        <class name="dstv.CommunicationPreferences" ></class>
+    </classes>
+</test >
+
+<!-- test name="DstvSignInNegative">    
+    <parameter name="base" value="browser=Mozilla,datasheet=SignInNegative"/>
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+    </classes>
+</test-->
+
+<!-- test name="DstvSignInNegative">    
+    <parameter name="browser" value="Mozilla"/>	
+	<parameter name="datasheet" value="SignInNegative"/>
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+    </classes>
+</test-->
+<!-- parameter name="base" value="browser=Mozilla,datasheet=SignIn"/ >
+<test name="DstvSignIn">    
+    <parameter name="browser" value="Mozilla"/>	
+	<parameter name="datasheet" value="SignIn"/>
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+    </classes>
+</test>
+<test name="DstvClearErrorCode">
+    <parameter name="base" value="browser=Mozilla,datasheet=ClearErrorCode"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+        <class name="dstv.ClearErrorCode" ></class>
+    </classes>
+</test -->
+
+<!-- test name="DstvNegative">
+    <parameter name="base" value="browser=Mozilla,datasheet=Negative"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+    </classes>
+</test -->
+
+
+
+</suite>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DMG" parallel="none">
+	
+ 	<listeners> 
+		<listener class-name="util.ExtentReportsNG" />
+	</listeners >
+ 	
+ 	
+ 	<!-- If you have more test suites, Please add them bellow. -->
+	<suite-files>
+	    <suite-file path="./DSTVMozillaFirefox.xml" />
+	    <!-- suite-file path="./DSTVIntenetExplorer.xml" /-->
+	    <!-- suite-file path="./DSTVChrome.xml" /-->
+	    <!-- suite-file path="./GOTVMozillaFirefox.xml" /-->
+	    <!-- suite-file path="./GOTVInternetExplorer.xml" /-->
+	    <!-- suite-file path="./GOTVChrome.xml" /-->
+   		<!-- suite-file path="./DSTVSmoke.xml" /-->
+   		<!-- suite-file path="./GOTVSmoke.xml" /-->
+  	</suite-files>
+</suite>
+

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DSTVMozillaFirefox">
+              <span class="suite-name border-passed">DSTVMozillaFirefox</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DSTVMozillaFirefox">
+                    <span>C:\SeleniumNew_Auto\Mobile\DGMmaven\src\main\resources\DSTVMozillaFirefox.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DSTVMozillaFirefox">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DSTVMozillaFirefox">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DSTVMozillaFirefox">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DSTVMozillaFirefox">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DSTVMozillaFirefox">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DSTVMozillaFirefox">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DSTVMozillaFirefox" class="hide-methods passed suite-DSTVMozillaFirefox"> (hide)</a> <!-- hide-methods passed suite-DSTVMozillaFirefox -->
+                      <a href="#" panel-name="suite-DSTVMozillaFirefox" class="show-methods passed suite-DSTVMozillaFirefox"> (show)</a> <!-- show-methods passed suite-DSTVMozillaFirefox -->
+                    </span>
+                    <div class="method-list-content passed suite-DSTVMozillaFirefox">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DSTVMozillaFirefox" title="dstv.CommunicationPreferences" hash-for-method="communicationPreferences({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)">communicationPreferences({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DSTVMozillaFirefox" title="dstv.SignIn" hash-for-method="signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=325323...)">signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=325323...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DSTVMozillaFirefox" title="dstv.SignIn" hash-for-method="signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)">signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DSTVMozillaFirefox -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DSTVMozillaFirefox" class="panel DSTVMozillaFirefox">
+          <div class="suite-DSTVMozillaFirefox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dstv.SignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=325323...)">
+                  </a> <!-- signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=325323...) -->
+                  <span class="method-name">signIn</span>
+                  <span class="parameters">({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=32532310})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)">
+                  </a> <!-- signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...) -->
+                  <span class="method-name">signIn</span>
+                  <span class="parameters">({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not interested, CuctomerID=32532310, Email=shubhangi.malavi@multichoice.co.za})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DSTVMozillaFirefox-class-passed -->
+          <div class="suite-DSTVMozillaFirefox-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dstv.CommunicationPreferences</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="communicationPreferences({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)">
+                  </a> <!-- communicationPreferences({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...) -->
+                  <span class="method-name">communicationPreferences</span>
+                  <span class="parameters">({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not interested, CuctomerID=32532310, Email=shubhangi.malavi@multichoice.co.za})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DSTVMozillaFirefox-class-passed -->
+        </div> <!-- panel DSTVMozillaFirefox -->
+        <div panel-name="suite-DMG" class="panel DMG">
+        </div> <!-- panel DMG -->
+        <div panel-name="test-xml-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\SeleniumNew_Auto\Mobile\DGMmaven\src\main\resources\DSTVMozillaFirefox.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;DSTVMozillaFirefox&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;util.ExtentReportsNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;DstvSignIn&quot;&gt;
+    &lt;parameter name=&quot;base&quot; value=&quot;browser=Mozilla,datasheet=SignIn&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;util.Base&quot;/&gt;
+      &lt;class name=&quot;dstv.SignIn&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DstvSignIn --&gt;
+  &lt;test name=&quot;DstvCommunicationPreferences&quot;&gt;
+    &lt;parameter name=&quot;base&quot; value=&quot;browser=Mozilla,datasheet=CommunicationPreferences&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;util.Base&quot;/&gt;
+      &lt;class name=&quot;dstv.SignIn&quot;/&gt;
+      &lt;class name=&quot;dstv.CommunicationPreferences&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DstvCommunicationPreferences --&gt;
+&lt;/suite&gt; &lt;!-- DSTVMozillaFirefox --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\SeleniumNew_Auto\Mobile\DGMmaven\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;DMG&quot; parallel=&quot;none&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;util.ExtentReportsNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./DSTVMozillaFirefox.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- DMG --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DSTVMozillaFirefox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DstvSignIn (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">DstvCommunicationPreferences (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DMG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DSTVMozillaFirefox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DMG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DSTVMozillaFirefox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DSTVMozillaFirefox');
+function tableData_DSTVMozillaFirefox() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'communicationPreferences')
+data.setCell(0, 2, 'dstv.CommunicationPreferences')
+data.setCell(0, 3, 75659);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signIn')
+data.setCell(1, 2, 'dstv.SignIn')
+data.setCell(1, 3, 19002);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signIn')
+data.setCell(2, 2, 'dstv.SignIn')
+data.setCell(2, 3, 15813);
+window.suiteTableData['DSTVMozillaFirefox']= { tableData: data, tableDiv: 'times-div-DSTVMozillaFirefox'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DSTVMozillaFirefox">
+              </div> <!-- times-div-DSTVMozillaFirefox -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DMG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DMG');
+function tableData_DMG() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['DMG']= { tableData: data, tableDiv: 'times-div-DMG'}
+return data;
+}
+              </script>
+              <div id="times-div-DMG">
+              </div> <!-- times-div-DMG -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DSTVMozillaFirefox</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DMG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">dstv.SignIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">GetDataFromXml</span>
+                <br/>
+                <span class="ignored-method-name">GetDataFromXml</span>
+                <br/>
+                <span class="ignored-method-name">beforeMethod</span>
+                <br/>
+                <span class="ignored-method-name">beforeMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">dstv.CommunicationPreferences</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">GetDataFromXml</span>
+                <br/>
+                <span class="ignored-method-name">beforeMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DSTVMozillaFirefox" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">util.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite(org.testng.TestRunner@6a95aea)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">GetDataFromXml(browser=Mozilla,datasheet=SignIn)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@b50bf15)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestRunnable</span>
+                <span class="method-start">862 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">28334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=325323...)</span>
+                <span class="method-start">28335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">47340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">48176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowse</span>
+                <span class="method-start">48822 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">util.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">GetDataFromXml(browser=Mozilla,datasheet=CommunicationPreferences)</span>
+                <span class="method-start">62543 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6a95aea)</span>
+                <span class="method-start">62545 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.CommunicationPreferences</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestRunnable</span>
+                <span class="method-start">62545 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestRunnable</span>
+                <span class="method-start">176358 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">176533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)</span>
+                <span class="method-start">176533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">192349 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">193135 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.CommunicationPreferences</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">communicationPreferences({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)</span>
+                <span class="method-start">193355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=communicationPreferences status=SUCCESS method=CommunicationPreferences.communicati...)</span>
+                <span class="method-start">269014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=communicationPreferences status=SUCCESS method=CommunicationPreferences.communicati...)</span>
+                <span class="method-start">270178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowse</span>
+                <span class="method-start">270251 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowse</span>
+                <span class="method-start">1155814 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DMG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">util.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite(org.testng.TestRunner@6a95aea)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">GetDataFromXml(browser=Mozilla,datasheet=SignIn)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@b50bf15)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestRunnable</span>
+                <span class="method-start">862 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">28334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, Expected=Arc SHUBHANGI, CuctomerID=325323...)</span>
+                <span class="method-start">28335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">47340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">48176 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowse</span>
+                <span class="method-start">48822 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">util.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">GetDataFromXml(browser=Mozilla,datasheet=CommunicationPreferences)</span>
+                <span class="method-start">62543 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@6a95aea)</span>
+                <span class="method-start">62545 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.CommunicationPreferences</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestRunnable</span>
+                <span class="method-start">62545 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestRunnable</span>
+                <span class="method-start">176358 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">176533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)</span>
+                <span class="method-start">176533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">192349 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=signIn status=SUCCESS method=SignIn.signIn(java.util.Hashtable)[pri:0, instance:dst...)</span>
+                <span class="method-start">193135 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.CommunicationPreferences</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">communicationPreferences({DataReactId=127, CountryName=Nigeria, Mobile=08055255258, NewMobile=08055255258, Reason=I am not in...)</span>
+                <span class="method-start">193355 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=communicationPreferences status=SUCCESS method=CommunicationPreferences.communicati...)</span>
+                <span class="method-start">269014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=communicationPreferences status=SUCCESS method=CommunicationPreferences.communicati...)</span>
+                <span class="method-start">270178 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowse</span>
+                <span class="method-start">270251 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dstv.SignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowse</span>
+                <span class="method-start">1155814 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

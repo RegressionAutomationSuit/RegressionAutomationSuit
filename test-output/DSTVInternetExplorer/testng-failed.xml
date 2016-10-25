@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DSTVInternetExplorer]" parallel="none">
+  <parameter name="base" value="browser=IE,datasheet=CommunicationPreferences"/>
+  <listeners>
+    <listener class-name="util.ExtentReportsNG"/>
+  </listeners>
+  <test name="DstvSignIn(failed)" parallel="none">
+    <parameter name="base" value="browser=IE,datasheet=SignIn"/>
+    <classes>
+      <class name="dstv.CommunicationPreferences">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="quitBrowse"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- dstv.CommunicationPreferences -->
+      <class name="util.Base">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="GetDataFromXml"/>
+          <include name="GetDataFromXml"/>
+        </methods>
+      </class> <!-- util.Base -->
+      <class name="dstv.SignIn">
+        <methods>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="quitBrowse"/>
+          <include name="quitBrowse"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="checkTestRunnable"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- dstv.SignIn -->
+    </classes>
+  </test> <!-- DstvSignIn(failed) -->
+  <test name="DstvCommunicationPreferences(failed)" parallel="none">
+    <parameter name="base" value="browser=IE,datasheet=CommunicationPreferences"/>
+    <classes>
+      <class name="dstv.CommunicationPreferences">
+        <methods>
+          <include name="checkTestRunnable"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="quitBrowse"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- dstv.CommunicationPreferences -->
+      <class name="util.Base">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="GetDataFromXml"/>
+          <include name="GetDataFromXml"/>
+        </methods>
+      </class> <!-- util.Base -->
+      <class name="dstv.SignIn">
+        <methods>
+          <include name="signIn" invocation-numbers="0"/>
+          <include name="quitBrowse"/>
+          <include name="quitBrowse"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="checkTestRunnable"/>
+          <include name="checkTestRunnable"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- dstv.SignIn -->
+    </classes>
+  </test> <!-- DstvCommunicationPreferences(failed) -->
+</suite> <!-- Failed suite [DSTVInternetExplorer] -->

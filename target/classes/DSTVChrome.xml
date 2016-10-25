@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DSTVchrome" parallel="none">
+
+<listeners> 
+		<listener class-name="util.ExtentReportsNG" />
+</listeners >
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+<test name="DstvSignIn">
+    <parameter name="base" value="browser=chrome,datasheet=SignIn"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+    </classes>
+</test>
+<test name="DstvCommunicationPreferences">
+    <parameter name="base" value="browser=chrome,datasheet=CommunicationPreferences"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="dstv.SignIn" ></class> 
+        <class name="dstv.CommunicationPreferences" ></class>
+    </classes>
+</test >
+</suite>

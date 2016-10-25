@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GotvSmoke" parallel="none">
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+<listeners> 
+		<listener class-name="util.ExtentReportsNG" />
+</listeners >
+
+<test name="GotvSignInMozilla">
+    <parameter name="base" value="browser=Mozilla,datasheet=SignIn"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="gotv.SignIn" ></class> 
+    </classes>
+</test>
+<test name="GotvSignInChrome">
+    <parameter name="base" value="browser=chrome,datasheet=SignIn"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="gotv.SignIn" ></class> 
+    </classes>
+</test>
+<test name="GotvSignInIE">
+    <parameter name="base" value="browser=IE,datasheet=SignIn"/>    
+    <classes>
+        <class name="util.Base" ></class>  
+        <class name="gotv.SignIn" ></class> 
+    </classes>
+</test>
+</suite>
